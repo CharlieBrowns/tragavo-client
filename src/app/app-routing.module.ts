@@ -7,8 +7,12 @@ const routes : Routes = [
         loadChildren : './main/main.module#MainModule'
     },
     {
-        path: 'eventos',
+        path: 'events',
         loadChildren : './events/events.module#EventsModule'
+    },
+    {
+        path: 'perfil',
+        loadChildren: './account/account.module#AccountModule'
     }
 ]
 
