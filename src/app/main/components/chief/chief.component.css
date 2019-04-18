@@ -1,0 +1,21 @@
+.home {
+  padding: 5.6rem 7.9rem;
+  display: flex;
+}
+
+.home > * {
+  padding: 0 .6rem;
+}
+
+.home__left {
+  width: 25%;
+}
+
+.home__center {
+  width: 50%;
+}
+
+.home__right {
+  width: 25%;
+  padding-right: 0 !important;
+}
