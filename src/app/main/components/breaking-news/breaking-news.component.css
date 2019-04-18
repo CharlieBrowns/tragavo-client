@@ -1,0 +1,158 @@
+.home__publish {
+  background-color: #fff;
+  display: flex;
+  padding: 1.5rem 0;
+  border-bottom: .1rem solid #eee;
+}
+
+.home__publish-profile {
+  width: 16%;
+  padding-left: 4rem;
+}
+
+.home__publish-profile img {
+  border-radius: 50%;
+}
+
+.home__publish-comment {
+  flex: 1;
+  padding: 0 1.5rem 0 0;
+}
+
+.home__publish-comment form {
+  width: 100%;
+}
+
+.home__publish-comment textarea {
+  width: 100%;
+  max-width: 100%;
+  height: 10rem;
+  max-height: 20rem;
+  border-radius: .5rem;
+  resize:vertical;
+  border: .2rem solid #545e68;
+  outline: none;
+  padding: .5rem 1rem
+}
+
+.home__publish-options {
+  padding-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home__publish-options button {
+  background-color: #24292e;
+  border-radius: 1rem;
+  color: #fff;
+  border: none;
+  padding: .5rem 2rem;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.home__publish-options button:hover {
+  background-color: #48525a;
+}
+
+.home__publish-icons {
+
+}
+
+.home__publish-icon {
+  font-size: 2rem;
+  text-decoration: none;
+  position: relative;
+  color: #24292e;
+}
+
+.home__publish-icon span {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: .5rem;
+  font-size: 1rem;
+  width: 10rem;
+  text-align: center;
+  border-radius: .5rem;
+  left: 110%;
+  top: -.5rem;
+  opacity: 0;
+  visibility: hidden;
+  transition: all .3s;
+}
+
+.home__publish-icon:hover span {
+  opacity: 1;
+  visibility: visible;
+}
+
+/*--------------------------pùblicaciones---------------------------*/
+.home__publications {
+  background-color: #fff;
+}
+
+.home__publication {
+  padding: 1.5rem;
+  display: flex;
+  border-bottom: .1rem solid #eee;
+}
+
+.home__publication-photo {
+  width: 8%;
+}
+
+.home__publication-photo img {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+}
+
+
+.home__publication-content {
+  flex: 1;
+}
+
+.home__publication-content h5 {
+  font-size: 1.4rem;
+  margin-bottom: .5rem
+}
+
+.home__publication-content p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.home__publication-icons {
+  padding-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.home__publication-icons a {
+  color: #24292e;
+  font-size: 1.4rem;
+  margin-right: 2.5rem;
+  text-decoration: none;
+  position: relative;
+}
+
+.home__publication-icons span {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: .5rem 1rem;
+  font-size: 1rem;
+  border-radius: .5rem;
+  left: 110%;
+  top: -.5rem;
+  opacity: 0;
+  visibility: hidden;
+  transition: all .3s;
+}
+
+.home__publication-icons a:hover span {
+  opacity: 1;
+  visibility: visible;
+}
